@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de juros</title>
+</head>
+
+<body>
+    <main>
+        <div class="explicacao">
+            <h1>Entendendo juros</h1>
+            <p>Juros são a remuneração pelo uso do dinheiro ao longo do tempo. Na prática, funcionam como um "aluguel":
+                você paga juros ao tomar um empréstimo ou financiamento, e os recebe quando investe.</p>
+                <p>Clique aqui para entender mais!</p>
+                <a href="index2.html" id="botao">entenda mais sobre juros</a>
+        </div>
+        <div class="formulario">
+            <form action="">
+                <h1>Calculadora de Juros</h1> <br><br>
+                <label for="capital">Capital:</label> <br>
+                <input type="number" id="capital" name="capital"> <br> <br>
+
+                <label for="taxa">Taxa:</label> <br>
+                <input type="number" id="taxa" name="taxa"> <br> <br>
+
+                <label for="tempo">Tempo:</label> <br>
+                <input type="number" id="tempo" name="tempo"> <br> <br>
+
+                <label for="tipo de juros">Tipo de juros:</label> <br>
+                <select id="tipoJuros">
+                    <option value="simples">Simples</option>
+                    <option value="composto">Composto</option>
+                </select> <br> <br>
+
+                <div class="botao">
+                    <button type="button" onclick="calcular()" id="calcular">Calcular</button>
+
+                    <button type="button" onclick="novoCalculo()" id="novoCalculo">Novo Cálculo</button>
+
+                    
+                </div>
+            </form>
+        </div>
+        <p id="resultado"></p>
+        <p id="resultado2"></p>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

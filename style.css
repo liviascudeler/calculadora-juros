@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #96baad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #204035;
+    text-align: center;
+}
+
+.formulario {
+    background-color: #496a637e;
+    width: 400px;
+    height: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px;
+}
+
+
+input {
+    background-color: #bfe2d6;
+    border: none;
+    border-radius: 8px;
+    width: 300px;
+    height: 23px;
+}
+
+label {
+    font-size: 20px;
+    color: #204035;
+}
+
+select {
+    background-color: #3a6455;
+    color: #bfe2d6;
+    font-size: 13px;
+    border: none;
+    border-radius: 8px;
+    width: 300px;
+    height: 23px;
+}
+.botao{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#calcular {
+    background-color: #3a6455;
+    color: #bfe2d6;
+    font-size: 13px;
+    border: none;
+    border-radius: 8px;
+    width: 150px;
+    height: 23px;
+}
+
+#novoCalculo {
+    background-color: #3a6455;
+    color: #bfe2d6;
+    font-size: 13px;
+    border: none;
+    border-radius: 8px;
+    width: 150px;
+    height: 23px;
+}
+
+.explicacao{
+    width: 30%;
+    position: absolute;
+    border-radius: 8px;
+    padding: 8px; ;
+    left: 20px;
+    top: 100px;
+    background-color: #2040352b;
+    box-shadow: 0 10px 25px
+}
+
+#botao{
+    color:rgb(8, 63, 10) ;
+    font-size: 15px;
+    transition: 0.3s;
+}
