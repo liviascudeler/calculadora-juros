@@ -57,7 +57,7 @@ select {
     gap: 10px;
 }
 
-#calcular {
+#calculo {
     background-color: #3a6455;
     color: #bfe2d6;
     font-size: 13px;
@@ -67,7 +67,7 @@ select {
     height: 23px;
 }
 
-#novoCalculo {
+#limpar {
     background-color: #3a6455;
     color: #bfe2d6;
     font-size: 13px;
