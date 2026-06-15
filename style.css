@@ -20,7 +20,7 @@ h1 {
 .formulario {
     background-color: #496a637e;
     width: 400px;
-    height: 520px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,4 +92,15 @@ select {
     color:rgb(8, 63, 10) ;
     font-size: 15px;
     transition: 0.3s;
+}
+
+
+@media(max-width: 600px){
+    .explicacao{
+       position: absolute;
+       left: 50px;
+       top: 650px;
+       width: 80%;
+}
+ 
 }
